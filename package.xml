@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<package format="1" xmlns="https://wiki.freecad.org/Package_Metadata">
+  <name>SeFCad</name>
+  <description>A package.xml file to add to a workbench that predates the metadata standard.</description>
+  <version>1.0.1</version>
+  <date>2022-05-07</date>
+  <maintainer email="acikgozbc@gmail.com">Your Name</maintainer>
+  <license file="LICENSE">LGPLv2.1</license>
+  <url type="repository" branch="main">https://github.com/bcacikgoz/SeFCad</url>
+  <icon>icons/SefcadLogo.png</icon> <!-- If you include your icon here, you don't have to submit it to the main FreeCAD repo -->
+
+  <content>
+    <workbench>
+      <classname>MyWorkbench</classname>
+      <subdirectory>./</subdirectory>
+    </workbench>
+  </content>
+
+</package>
